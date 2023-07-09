@@ -847,6 +847,68 @@
         "metadata": "",
         "name": "Minecraft.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Logo WideScreen V3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Logo WideScreen V3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "C:/Users/Max/Downloads/Road Fighter/Road Fighter Logo WideScreen V2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:\\Users\\Max\\Downloads\\Road Fighter\\Road Fighter Logo WideScreen V2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Road Fighter Logo WideScreen V2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Road Fighter Logo WideScreen V2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Road Fighter Assets/Sonidos/Speed Racer Arcade OST Opening.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sonidos\\Speed Racer Arcade OST Opening.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Road Fighter Assets/Font/Minecraft.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Font\\Minecraft.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Mach5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Mach5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/road_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\road_0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -891,7 +953,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -933,7 +995,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Road Fighter Logo WideScreen V2.png",
+                      "image": "Road Fighter Assets\\Road Fighter Logo WideScreen V2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -967,7 +1029,7 @@
           "effects": [],
           "behaviors": [],
           "string": "Press Any Button",
-          "font": "Minecraft.ttf",
+          "font": "Road Fighter Assets\\Font\\Minecraft.ttf",
           "textAlignment": "left",
           "characterSize": 50,
           "color": {
@@ -997,7 +1059,7 @@
               },
               "parameters": [
                 "",
-                "Speed Racer Arcade OST Opening.mp3",
+                "Road Fighter Assets\\Sonidos\\Speed Racer Arcade OST Opening.mp3",
                 "yes",
                 "25",
                 ""
@@ -1707,7 +1769,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Mach5.png",
+                      "image": "Road Fighter Assets\\Mach5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2779,7 +2841,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "road_0.png",
+                      "image": "Road Fighter Assets\\road_0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
