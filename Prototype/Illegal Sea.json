@@ -794,6 +794,59 @@
         "name": "road_0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Logo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Logo WideScreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Logo WideScreen.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Logo WideScreen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Logo WideScreen2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Speed Racer Arcade OST Opening.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Speed Racer Arcade OST Opening.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Logo WideScreen V2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Logo WideScreen V2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Minecraft.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Minecraft.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -802,6 +855,402 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Title_32Screen",
+      "name": "Title Screen",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5290357402156838,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Logo",
+          "persistentUuid": "1c141f40-2d43-465f-8409-0ccff5b1e002",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PressButton",
+          "persistentUuid": "0d27ec97-a806-4648-ad27-cd5d340c617b",
+          "width": 0,
+          "x": 450,
+          "y": 557,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Logo WideScreen V2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PressButton",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press Any Button",
+          "font": "Minecraft.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Speed Racer Arcade OST Opening.mp3",
+                "yes",
+                "25",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "PressButton",
+                "\"StartBlink\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Logo",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "PressButton",
+                "\"StartBlink\"",
+                ">",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "PressButton",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "PressButton",
+                "\"StartBlink\"",
+                ">",
+                "0.6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "PressButton",
+                "=",
+                "255"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "PressButton",
+                "\"StartBlink\"",
+                ">=",
+                "0.9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "PressButton",
+                "\"StartBlink\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Menu Control",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Main Menu\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnyKeyPressed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Main Menu\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main_32Menu",
+      "name": "Main Menu",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
     {
       "b": 98,
       "disableInputWhenNotFocused": true,
@@ -822,7 +1271,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23867758270258302,
+        "zoomFactor": 0.13138826996359929,
         "windowMask": false
       },
       "objectsGroups": [
@@ -881,14 +1330,15 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
           "layer": "",
           "name": "Dust",
           "persistentUuid": "77194782-0159-469f-a96e-5cf664763e22",
-          "width": 0,
-          "x": 1344,
-          "y": -160,
+          "width": 128,
+          "x": 1345,
+          "y": -170,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -977,11 +1427,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 243,
+          "height": 340,
           "layer": "",
           "name": "Player",
           "persistentUuid": "c7215246-c26a-4ff6-87ae-7c9815adbf7d",
-          "width": 86,
+          "width": 121,
           "x": 1707,
           "y": -295,
           "zOrder": 20,
@@ -2383,7 +2833,7 @@
               },
               "parameters": [
                 "",
-                "0.5",
+                "0.42",
                 "",
                 ""
               ]
@@ -2403,7 +2853,7 @@
               "parameters": [
                 "",
                 "Player",
-                "",
+                "400",
                 "\"\"",
                 ""
               ]
@@ -2440,6 +2890,18 @@
                 "yes",
                 "30",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SmoothCamera::SmoothCamera::SetOffsetYOp"
+              },
+              "parameters": [
+                "Player",
+                "SmoothCamera",
+                "=",
+                "-600",
+                ""
               ]
             }
           ],
@@ -2591,6 +3053,35 @@
                       },
                       "parameters": [
                         "",
+                        "Up"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::ApplyPolarForce"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "Player.Angle()-90",
+                        "150*TimeDelta()*60",
+                        "Player.CenterX()",
+                        "Player.CenterY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
                         "Down"
                       ]
                     }
@@ -2620,35 +3111,6 @@
                       },
                       "parameters": [
                         "",
-                        "Up"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Physics2::ApplyPolarForce"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Physics2",
-                        "Player.Angle()-90",
-                        "90*TimeDelta()*60",
-                        "Player.CenterX()",
-                        "Player.CenterY()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
                         "Right"
                       ]
                     }
@@ -2661,7 +3123,7 @@
                       "parameters": [
                         "Player",
                         "Physics2",
-                        "16*(Player.Physics2::LinearVelocity()/400)*TimeDelta()*60"
+                        "25*(Player.Physics2::LinearVelocity()/200)*TimeDelta()*60"
                       ]
                     }
                   ]
@@ -2687,7 +3149,7 @@
                       "parameters": [
                         "Player",
                         "Physics2",
-                        "-16*(Player.Physics2::LinearVelocity()/400)*TimeDelta()*60"
+                        "-25*(Player.Physics2::LinearVelocity()/200)*TimeDelta()*60"
                       ]
                     }
                   ]
