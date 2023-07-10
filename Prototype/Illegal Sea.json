@@ -1104,6 +1104,87 @@
         "name": "Road Fighter Assets\\Green_Background.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Orange_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Orange_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Mach5_Punta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Mach5_Punta.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2434,7 +2515,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16514724314651866,
+        "zoomFactor": 0.3000035299584002,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2595,8 +2676,8 @@
           "name": "Player",
           "persistentUuid": "c7215246-c26a-4ff6-87ae-7c9815adbf7d",
           "width": 121,
-          "x": 1690,
-          "y": 1175,
+          "x": 2075,
+          "y": 1173,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4353,16 +4434,30 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 102,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "CarPassed",
+          "persistentUuid": "0df1d7f4-cfde-4a67-b817-e8df4bf30b2c",
+          "width": 0,
+          "x": 4,
+          "y": 249,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "SectionPart",
-          "persistentUuid": "fc78261a-4f5c-42fa-b88b-22dad3b3941c",
-          "width": 1280,
-          "x": 2537,
-          "y": -978,
-          "zOrder": 2,
+          "name": "Sector_1",
+          "persistentUuid": "8e4c6170-adb5-4771-9f0c-8453bbefd567",
+          "width": 0,
+          "x": 1105,
+          "y": -498,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5328,6 +5423,28 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
+          "name": "CarPassed",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Car Passed: 0",
+          "font": "27d4da0f7767cf3fbf14eb2c8da758dbcfc7b5038c9214d5e6ed62db6476a6e5_Chango-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
           "name": "TimeUI",
           "smoothed": true,
           "tags": "",
@@ -5692,7 +5809,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "SectionPart",
+          "name": "Sector_1",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5710,7 +5827,335 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Road Fighter Assets\\Green_Background.png",
+                      "image": "Road Fighter Assets\\Sector\\Sector_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sector_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Sector\\Sector_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sector_3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Sector\\Sector_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sector_4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Sector\\Sector_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sector_5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Sector\\Sector_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sector_6",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Sector\\Sector_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sector_7",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Sector\\Sector_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PassedRec",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Orange_Background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Mach5_Nose",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Mach5_Punta.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5958,6 +6403,31 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Mach5_Nose",
+                "1690",
+                "1190",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -5980,6 +6450,7 @@
               "comment": "Player controls."
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6364,6 +6835,18 @@
                 "=",
                 "min((Player.Physics2::LinearVelocity())*10, 25)"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Mach5_Nose",
+                "=",
+                "Player.CenterX()-10",
+                "=",
+                "Player.CenterY()-140"
+              ]
             }
           ]
         },
@@ -6399,7 +6882,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Lap checking and restart game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6880,6 +7362,51 @@
                   },
                   "parameters": [
                     "",
+                    "PassedRec",
+                    "1500",
+                    "600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "0",
+                    "-250",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "Enemy_Car_1.CenterX()",
+                    "=",
+                    "Enemy_Car_1.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
                     "Enemy_Car_1",
                     "1800",
                     "600",
@@ -6905,6 +7432,96 @@
                     "0",
                     "-250",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PassedRec",
+                    "1500",
+                    "600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "0",
+                    "-250",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "Enemy_Car_1.CenterX()",
+                    "=",
+                    "Enemy_Car_1.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Mach5_Nose",
+                    "PassedRec",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "CarsPassedVar",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "CarPassed",
+                    "=",
+                    "\"Cars Passed: \" + ToString(Variable(CarsPassedVar))"
                   ]
                 }
               ]
@@ -6984,7 +7601,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "SectionPart",
+                    "Sector_1",
                     "SectionPart",
                     "",
                     ""
@@ -7012,7 +7629,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "SectionPart",
+                    "Sector_1",
                     "SectionPart",
                     "",
                     ""
@@ -7052,16 +7669,119 @@
                     "-250",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PassedRec",
+                    "1500",
+                    "-1400",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PassedRec"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "Enemy_Car_1.CenterX()",
+                    "=",
+                    "Enemy_Car_1.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "0",
+                    "-250",
+                    "1"
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Mach5_Nose",
+                    "PassedRec",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "CarsPassedVar",
+                    "+",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "CarPassed",
+                    "=",
+                    "\"Cars Passed: \" + ToString(Variable(CarsPassedVar))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7078,6 +7798,18 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Template 2"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
