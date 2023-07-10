@@ -1086,6 +1086,15 @@
         "name": "Road Fighter Assets\\Speed-Racer-Logo Black.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Car_GalardB.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Car_GalardB.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2416,7 +2425,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.11131182576837292,
+        "zoomFactor": 0.08825105444132915,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2578,8 +2587,8 @@
           "persistentUuid": "c7215246-c26a-4ff6-87ae-7c9815adbf7d",
           "width": 121,
           "x": 1690,
-          "y": 1179,
-          "zOrder": 20,
+          "y": 1175,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2625,9 +2634,9 @@
           "name": "TilesetPiece33",
           "persistentUuid": "c9b7b77c-41ca-4b55-b278-07ba7119aa90",
           "width": 960,
-          "x": -341,
-          "y": 989,
-          "zOrder": 22,
+          "x": -584,
+          "y": 938,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -2648,8 +2657,8 @@
           "name": "TilesetPiece33",
           "persistentUuid": "586a23fc-afee-4018-9482-f1a46519ce48",
           "width": 448,
-          "x": 24,
-          "y": -2023,
+          "x": -1211,
+          "y": 141,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -2671,9 +2680,9 @@
           "name": "TilesetPiece33",
           "persistentUuid": "fcbb6d21-aa92-4518-83a2-c43569b78230",
           "width": 960,
-          "x": -384,
-          "y": 256,
-          "zOrder": 22,
+          "x": -366,
+          "y": -762,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -5189,6 +5198,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Enemy_Car_1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Car_GalardB.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5293,6 +5343,16 @@
                 "30",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Speed",
+                "=",
+                "300"
+              ]
             }
           ],
           "events": [
@@ -5353,6 +5413,87 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Enemy_Car_1",
+                "1500",
+                "600",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Enemy_Car_1",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Enemy_Car_1",
+                "0",
+                "-250",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Enemy_Car_1",
+                "1800",
+                "600",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Enemy_Car_1",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Enemy_Car_1",
+                "0",
+                "-250",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -5402,7 +5543,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5457,7 +5597,7 @@
                         "Player",
                         "Physics2",
                         "Player.Angle()-90",
-                        "300*TimeDelta()*60",
+                        "Variable(Speed)*TimeDelta()*60",
                         "Player.CenterX()",
                         "Player.CenterY()"
                       ]
@@ -5696,6 +5836,72 @@
                   },
                   "parameters": [
                     "Player",
+                    "Enemy_Car_1",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Speed",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CollisionTimer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "PressButton",
+                    "\"CollisionTimer\"",
+                    ">",
+                    "0.7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Speed",
+                    "=",
+                    "300"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
                     "Tile5tiledsprite",
                     "",
                     "",
@@ -5839,6 +6045,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Lap checking and restart game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
