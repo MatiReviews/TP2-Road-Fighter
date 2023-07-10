@@ -1194,6 +1194,24 @@
         "name": "Road Fighter Assets\\Sector\\Sector_0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/isColliding.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\isColliding.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/isCollidingV2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\isCollidingV2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2524,7 +2542,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.11853340288688147,
+        "zoomFactor": 0.4933694211950881,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4505,16 +4523,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 252,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "Enemy_Car_1",
-          "persistentUuid": "3c39002c-ec77-41ef-b7be-d3169edc4924",
-          "width": 140,
-          "x": 2898,
-          "y": -7593,
-          "zOrder": 31,
+          "name": "Sector_1",
+          "persistentUuid": "33bdb5e0-7e0b-4cb4-be17-4592f5b3bfc5",
+          "width": 0,
+          "x": 2682,
+          "y": -14448,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5488,7 +5505,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Car Passed: 0",
+          "string": "Cars Passed: 0",
           "font": "27d4da0f7767cf3fbf14eb2c8da758dbcfc7b5038c9214d5e6ed62db6476a6e5_Chango-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 25,
@@ -6273,6 +6290,88 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "isColliding",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\isColliding.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "isCollidingV2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\isCollidingV2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6380,16 +6479,6 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Speed",
-                "=",
-                "300"
-              ]
-            },
-            {
-              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
@@ -6451,6 +6540,37 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Speed",
+                "=",
+                "300"
               ]
             }
           ]
@@ -6605,7 +6725,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6623,7 +6742,6 @@
               "comment": "Player controls."
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6922,7 +7040,7 @@
                     "Player",
                     "Physics2",
                     "=",
-                    "4"
+                    "0"
                   ]
                 }
               ]
@@ -7437,6 +7555,18 @@
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
+                "b": 155,
+                "g": 155,
+                "r": 155,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
+              "comment": "Car W: 140 H: 252"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
                 "b": 109,
                 "g": 230,
                 "r": 255,
@@ -7493,6 +7623,89 @@
                 },
                 {
                   "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PassedRec",
+                    "1558",
+                    "-7000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "Enemy_Car_1.CenterX()-600",
+                    "=",
+                    "Enemy_Car_1.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "isColliding",
+                    "1558",
+                    "-7000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "isColliding",
+                    "=",
+                    "Enemy_Car_1.CenterX()-600",
+                    "=",
+                    "Enemy_Car_1.Y()+300"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isColliding",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "AddForceXY"
                   },
                   "parameters": [
@@ -7504,18 +7717,6 @@
                 },
                 {
                   "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "PassedRec",
-                    "1558",
-                    "600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AddForceXY"
                   },
                   "parameters": [
@@ -7527,24 +7728,13 @@
                 },
                 {
                   "type": {
-                    "value": "ChangeHeight"
+                    "value": "AddForceXY"
                   },
                   "parameters": [
-                    "PassedRec",
-                    "=",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "PassedRec",
-                    "=",
-                    "Enemy_Car_1.CenterX()",
-                    "=",
-                    "Enemy_Car_1.Y()"
+                    "isColliding",
+                    "0",
+                    "-250",
+                    "1"
                   ]
                 }
               ]
@@ -7591,7 +7781,7 @@
                   "parameters": [
                     "",
                     "Enemy_Car_1",
-                    "1795",
+                    "1788",
                     "-10000",
                     ""
                   ]
@@ -7608,36 +7798,14 @@
                 },
                 {
                   "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Enemy_Car_1",
-                    "0",
-                    "-250",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
                     "",
                     "PassedRec",
-                    "1795",
-                    "-12719",
+                    "1788",
+                    "-10000",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "PassedRec",
-                    "0",
-                    "-250",
-                    "1"
                   ]
                 },
                 {
@@ -7647,7 +7815,7 @@
                   "parameters": [
                     "PassedRec",
                     "=",
-                    "10"
+                    "15"
                   ]
                 },
                 {
@@ -7657,7 +7825,7 @@
                   "parameters": [
                     "PassedRec",
                     "=",
-                    "Enemy_Car_1.CenterX()",
+                    "Enemy_Car_1.CenterX()-600",
                     "=",
                     "Enemy_Car_1.Y()"
                   ]
@@ -7723,17 +7891,6 @@
                 },
                 {
                   "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Enemy_Car_1",
-                    "0",
-                    "-250",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -7746,23 +7903,12 @@
                 },
                 {
                   "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "PassedRec",
-                    "0",
-                    "-250",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ChangeHeight"
                   },
                   "parameters": [
                     "PassedRec",
                     "=",
-                    "10"
+                    "15"
                   ]
                 },
                 {
@@ -7772,7 +7918,7 @@
                   "parameters": [
                     "PassedRec",
                     "=",
-                    "Enemy_Car_1.CenterX()",
+                    "Enemy_Car_1.CenterX()-600",
                     "=",
                     "Enemy_Car_1.Y()"
                   ]
@@ -7780,9 +7926,16 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 255,
+                "g": 0,
+                "r": 208,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
+              "comment": "Car Passed Collision Counter"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7868,6 +8021,18 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 255,
+                "g": 0,
+                "r": 208,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
+              "comment": "Car Collision"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7918,6 +8083,15 @@
                   },
                   "parameters": [
                     "Enemy_Car_1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "PassedRec",
                     ""
                   ]
                 }
@@ -8070,21 +8244,11 @@
           "comment": "Template 2"
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
+            "b": 4,
+            "g": 199,
+            "r": 106,
             "textB": 0,
             "textG": 0,
             "textR": 0
