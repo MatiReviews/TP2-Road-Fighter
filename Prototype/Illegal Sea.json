@@ -1185,6 +1185,15 @@
         "name": "Road Fighter Assets\\Mach5_Punta.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2515,7 +2524,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3000035299584002,
+        "zoomFactor": 0.11853340288688147,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2676,8 +2685,8 @@
           "name": "Player",
           "persistentUuid": "c7215246-c26a-4ff6-87ae-7c9815adbf7d",
           "width": 121,
-          "x": 2075,
-          "y": 1173,
+          "x": 1796,
+          "y": 4402,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2692,8 +2701,8 @@
           "name": "TiledFullWall",
           "persistentUuid": "1c3c0106-d89e-40a4-add3-447d968ecf8b",
           "width": 320,
-          "x": 1568,
-          "y": -381,
+          "x": 638,
+          "y": -88,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4449,15 +4458,63 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "cef71271-244f-47dd-ac00-22a33c56ee08",
+          "width": 1150,
+          "x": 1172,
+          "y": 1168,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "a9f4470d-7d4d-4a43-8fae-81525038ddda",
+          "width": 1150,
+          "x": 1174,
+          "y": 3077,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Sector_1",
-          "persistentUuid": "8e4c6170-adb5-4771-9f0c-8453bbefd567",
+          "name": "Sector_0",
+          "persistentUuid": "d134bd0f-0225-42d8-97c4-b3e848e91e87",
           "width": 0,
-          "x": 1105,
-          "y": -498,
+          "x": 1101,
+          "y": 2842,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 252,
+          "layer": "",
+          "name": "Enemy_Car_1",
+          "persistentUuid": "3c39002c-ec77-41ef-b7be-d3169edc4924",
+          "width": 140,
+          "x": 2898,
+          "y": -7593,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5809,6 +5866,47 @@
         },
         {
           "assetStoreId": "",
+          "name": "Sector_0",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\Sector\\Sector_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
           "name": "Sector_1",
           "tags": "",
           "type": "Sprite",
@@ -6403,29 +6501,104 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Car Setup",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Mach5_Nose",
+                    "1690",
+                    "1190",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Mach5_Nose",
-                "1690",
-                "1190",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Dust",
+                    "=",
+                    "Player.CenterX()",
+                    "=",
+                    "Player.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Dust",
+                    "=",
+                    "Player.Angle()+180"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModPitchSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "=",
+                    "min((Player.Physics2::LinearVelocity()/300), 1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "=",
+                    "min((Player.Physics2::LinearVelocity())*10, 25)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Mach5_Nose",
+                    "=",
+                    "Player.CenterX()-10",
+                    "=",
+                    "Player.CenterY()-140"
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -6790,68 +6963,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Dust",
-                "=",
-                "Player.CenterX()",
-                "=",
-                "Player.CenterY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Dust",
-                "=",
-                "Player.Angle()+180"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModPitchSoundChannel"
-              },
-              "parameters": [
-                "",
-                "0",
-                "=",
-                "min((Player.Physics2::LinearVelocity()/300), 1)"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVolumeSoundCanal"
-              },
-              "parameters": [
-                "",
-                "0",
-                "=",
-                "min((Player.Physics2::LinearVelocity())*10, 25)"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Mach5_Nose",
-                "=",
-                "Player.CenterX()-10",
-                "=",
-                "Player.CenterY()-140"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -6882,6 +6993,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Lap checking and restart game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7302,6 +7414,18 @@
           "actions": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sector 1"
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -7311,15 +7435,37 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Car 1"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "DepartScene"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "Player",
+                    "Sector_0",
+                    "",
+                    "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -7330,8 +7476,8 @@
                   "parameters": [
                     "",
                     "Enemy_Car_1",
-                    "1500",
-                    "600",
+                    "1558",
+                    "-7000",
                     ""
                   ]
                 },
@@ -7363,85 +7509,7 @@
                   "parameters": [
                     "",
                     "PassedRec",
-                    "1500",
-                    "600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "PassedRec",
-                    "0",
-                    "-250",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeHeight"
-                  },
-                  "parameters": [
-                    "PassedRec",
-                    "=",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "PassedRec",
-                    "=",
-                    "Enemy_Car_1.CenterX()",
-                    "=",
-                    "Enemy_Car_1.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Enemy_Car_1",
-                    "1800",
-                    "600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "Enemy_Car_1",
-                    "=",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Enemy_Car_1",
-                    "0",
-                    "-250",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "PassedRec",
-                    "1500",
+                    "1558",
                     "600",
                     ""
                   ]
@@ -7480,6 +7548,241 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Car 2"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Sector_0",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy_Car_1",
+                    "1795",
+                    "-10000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Enemy_Car_1",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Enemy_Car_1",
+                    "0",
+                    "-250",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PassedRec",
+                    "1795",
+                    "-12719",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "0",
+                    "-250",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "Enemy_Car_1.CenterX()",
+                    "=",
+                    "Enemy_Car_1.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Car 3"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Sector_0",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy_Car_1",
+                    "1795",
+                    "-12000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Enemy_Car_1",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Enemy_Car_1",
+                    "0",
+                    "-250",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PassedRec",
+                    "1795",
+                    "-14218",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "0",
+                    "-250",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PassedRec",
+                    "=",
+                    "Enemy_Car_1.CenterX()",
+                    "=",
+                    "Enemy_Car_1.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7727,51 +8030,6 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Mach5_Nose",
-                    "PassedRec",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "CarsPassedVar",
-                    "+",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "CarPassed",
-                    "=",
-                    "\"Cars Passed: \" + ToString(Variable(CarsPassedVar))"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
             },
@@ -7810,6 +8068,33 @@
             "textR": 0
           },
           "comment": "Template 2"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Car 2"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
