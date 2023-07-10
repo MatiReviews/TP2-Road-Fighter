@@ -1266,6 +1266,15 @@
         "name": "Road Fighter Assets\\Sector\\Sector_7_End.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Sector/Sector_4_End.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Sector\\Sector_4_End.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2596,7 +2605,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23785098907678337,
+        "zoomFactor": 0.18242338118461174,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2757,8 +2766,8 @@
           "name": "Player",
           "persistentUuid": "c7215246-c26a-4ff6-87ae-7c9815adbf7d",
           "width": 121,
-          "x": 3680,
-          "y": -45329,
+          "x": 1649,
+          "y": -69949,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4676,9 +4685,39 @@
           "name": "Enemy_Car_1",
           "persistentUuid": "68c4f6ac-ce93-45ab-8d39-f596b7d964c9",
           "width": 140,
-          "x": 3299,
-          "y": -74771,
+          "x": 3837,
+          "y": -103598,
           "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -43,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sector_4_End",
+          "persistentUuid": "4c937139-2073-42b0-ad1b-9619cf55fcf5",
+          "width": 0,
+          "x": 2217,
+          "y": -103572,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -43,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sector_5",
+          "persistentUuid": "37b59490-0bf5-413d-b5d0-ca80d6aa6994",
+          "width": 0,
+          "x": 1716,
+          "y": -104160,
+          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6499,7 +6538,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Road Fighter Assets\\Sector\\Sector_4.png",
+                      "image": "Road Fighter Assets\\Sector\\Sector_4_End.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7991,6 +8030,7 @@
           "colorG": 53,
           "colorR": 255,
           "creationTime": 0,
+          "folded": true,
           "name": "Sector 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8126,9 +8166,17 @@
                       "parameters": [
                         "isColliding",
                         "=",
-                        "Enemy_Car_1.CenterX()-600",
+                        "Enemy_Car_1.CenterX()-1000",
                         "=",
                         "Enemy_Car_1.Y()+300"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "isColliding"
                       ]
                     }
                   ]
@@ -8698,9 +8746,17 @@
                           "parameters": [
                             "isColliding",
                             "=",
-                            "Enemy_Car_1.CenterX()-600",
+                            "Enemy_Car_1.CenterX()-1000",
                             "=",
                             "Enemy_Car_1.Y()+300"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "isColliding"
                           ]
                         }
                       ]
@@ -9507,9 +9563,17 @@
                           "parameters": [
                             "isColliding",
                             "=",
-                            "Enemy_Car_1.CenterX()-600",
+                            "Enemy_Car_1.CenterX()-1000",
                             "=",
                             "Enemy_Car_1.Y()+300"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "isColliding"
                           ]
                         }
                       ]
@@ -10648,6 +10712,7 @@
           "colorG": 53,
           "colorR": 255,
           "creationTime": 0,
+          "folded": true,
           "name": "Sector 4",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10780,9 +10845,17 @@
                           "parameters": [
                             "isColliding",
                             "=",
-                            "Enemy_Car_1.CenterX()-600",
+                            "Enemy_Car_1.CenterX()-1000",
                             "=",
                             "Enemy_Car_1.Y()+300"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "isColliding"
                           ]
                         }
                       ]
@@ -10839,7 +10912,7 @@
                           "parameters": [
                             "isColliding",
                             "0",
-                            "-250",
+                            "-180",
                             "1"
                           ]
                         }
@@ -10980,8 +11053,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1319",
-                            "-51833",
+                            "3078",
+                            "-75730",
                             ""
                           ]
                         },
@@ -11002,8 +11075,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1319",
-                            "-51833",
+                            "3078",
+                            "-75730",
                             ""
                           ]
                         },
@@ -11073,8 +11146,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1994",
-                            "-52292",
+                            "3540",
+                            "-76559",
                             ""
                           ]
                         },
@@ -11095,8 +11168,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1994",
-                            "-53292",
+                            "3540",
+                            "-76559",
                             ""
                           ]
                         },
@@ -11166,8 +11239,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1517",
-                            "-53674",
+                            "2844",
+                            "-77114",
                             ""
                           ]
                         },
@@ -11188,8 +11261,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1517",
-                            "-57674",
+                            "2844",
+                            "-77114",
                             ""
                           ]
                         },
@@ -11259,8 +11332,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1767",
-                            "-54563",
+                            "3299",
+                            "-77662",
                             ""
                           ]
                         },
@@ -11281,8 +11354,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1767",
-                            "-58563",
+                            "3299",
+                            "-77662",
                             ""
                           ]
                         },
@@ -11352,8 +11425,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1298",
-                            "-56370",
+                            "2971",
+                            "-79241",
                             ""
                           ]
                         },
@@ -11374,8 +11447,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1298",
-                            "-59370",
+                            "2971",
+                            "-79241",
                             ""
                           ]
                         },
@@ -11445,8 +11518,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1542",
-                            "-58461",
+                            "3318",
+                            "-81600",
                             ""
                           ]
                         },
@@ -11467,8 +11540,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1542",
-                            "-61461",
+                            "3318",
+                            "-81600",
                             ""
                           ]
                         },
@@ -11538,8 +11611,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1775",
-                            "-58461",
+                            "3188",
+                            "-83399",
                             ""
                           ]
                         },
@@ -11560,8 +11633,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1775",
-                            "-61461",
+                            "3188",
+                            "-83399",
                             ""
                           ]
                         },
@@ -11631,8 +11704,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1996",
-                            "-60116",
+                            "3067",
+                            "-84089",
                             ""
                           ]
                         },
@@ -11653,8 +11726,8 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1996",
-                            "-63116",
+                            "3067",
+                            "-84089",
                             ""
                           ]
                         },
@@ -11724,8 +11797,8 @@
                           "parameters": [
                             "",
                             "Enemy_Car_1",
-                            "1300",
-                            "-60979",
+                            "2853",
+                            "-85133",
                             ""
                           ]
                         },
@@ -11746,8 +11819,194 @@
                           "parameters": [
                             "",
                             "PassedRec",
-                            "1300",
-                            "-63979",
+                            "2853",
+                            "-85133",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 12",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_4",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3189",
+                            "-85455",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3189",
+                            "-85455",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 13",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_4",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3454",
+                            "-85881",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3454",
+                            "-85881",
                             ""
                           ]
                         },
@@ -11880,6 +12139,1473 @@
                           "parameters": [
                             "Player",
                             "Sector_4_End",
+                            "SectionPart",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 0,
+          "colorG": 53,
+          "colorR": 255,
+          "creationTime": 0,
+          "name": "Sector 5",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Enemy_Car_1_Red",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 155,
+                    "g": 155,
+                    "r": 155,
+                    "textB": 255,
+                    "textG": 255,
+                    "textR": 255
+                  },
+                  "comment": "Car W: 140 H: 252"
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 1",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3543",
+                            "-73812",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "2004",
+                            "-49500",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "isColliding",
+                            "3543",
+                            "-73812",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "isColliding",
+                            "=",
+                            "Enemy_Car_1.CenterX()-1000",
+                            "=",
+                            "Enemy_Car_1.Y()+300"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "isColliding"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "isColliding",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "0",
+                            "-185",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "0",
+                            "-185",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "isColliding",
+                            "0",
+                            "-180",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 2",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3299",
+                            "-74771",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "1761",
+                            "-50572",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 3",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3078",
+                            "-75730",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3078",
+                            "-75730",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 4",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3540",
+                            "-76559",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3540",
+                            "-76559",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 5",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "2844",
+                            "-77114",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "2844",
+                            "-77114",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 6",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3299",
+                            "-77662",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3299",
+                            "-77662",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 7",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "2971",
+                            "-79241",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "2971",
+                            "-79241",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 8",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3318",
+                            "-81600",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3318",
+                            "-81600",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 9",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3188",
+                            "-83399",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3188",
+                            "-83399",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 10",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3067",
+                            "-84089",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3067",
+                            "-84089",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 11",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "2853",
+                            "-85133",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "2853",
+                            "-85133",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 12",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3189",
+                            "-85455",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3189",
+                            "-85455",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 162,
+                  "colorG": 248,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Car 13",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy_Car_1",
+                            "3454",
+                            "-85881",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Enemy_Car_1",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PassedRec",
+                            "3454",
+                            "-85881",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSize"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "Variable(PassedCarWidth)",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "PassedRec",
+                            "=",
+                            "Enemy_Car_1.CenterX()-Variable(PassedCarXPos)",
+                            "=",
+                            "Enemy_Car_1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "colorB": 255,
+                  "colorG": 64,
+                  "colorR": 193,
+                  "creationTime": 0,
+                  "name": "Car Collision",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Enemy_Car_1",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Speed",
+                            "=",
+                            "100"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"CollisionTimer\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareTimer"
+                          },
+                          "parameters": [
+                            "PressButton",
+                            "\"CollisionTimer\"",
+                            ">",
+                            "0.7"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Speed",
+                            "=",
+                            "300"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 0,
+                  "colorG": 148,
+                  "colorR": 163,
+                  "creationTime": 0,
+                  "name": "Car Delete",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Sector_5_End",
                             "SectionPart",
                             "",
                             ""
