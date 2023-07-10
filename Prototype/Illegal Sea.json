@@ -1362,6 +1362,24 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/car delete.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\car delete.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/cuidado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\cuidado.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1618,7 +1636,7 @@
                 "",
                 "Road Fighter Assets\\Sonidos\\Speed Racer Arcade OST Opening.mp3",
                 "yes",
-                "25",
+                "45",
                 ""
               ]
             },
@@ -1877,11 +1895,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Button_Level_1",
+          "name": "Button_Tuto",
           "persistentUuid": "c4fd71b1-3e4e-4156-ac71-38b6bf577f91",
           "width": 0,
           "x": 173,
-          "y": 560,
+          "y": 535,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1892,11 +1910,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Button_Level_2",
+          "name": "Button_Level_1",
           "persistentUuid": "f5327213-0694-4cb8-a575-3ba6d629b1f1",
           "width": 0,
           "x": 174,
-          "y": 636,
+          "y": 611,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1912,7 +1930,7 @@
           "persistentUuid": "4336f4b2-b59a-43fa-aa5f-64709e428569",
           "width": 317,
           "x": 118,
-          "y": 478,
+          "y": 453,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2119,6 +2137,81 @@
         },
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "Button_Tuto",
+          "tags": "",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 3,
+              "leftEdgeAnchor": 3,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 3,
+              "topEdgeAnchor": 3,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Tutorial",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Button_Level_1",
           "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
@@ -2171,81 +2264,6 @@
               "smoothed": true,
               "underlined": false,
               "string": "Level 1",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 45,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Pressed.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            }
-          }
-        },
-        {
-          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-          "name": "Button_Level_2",
-          "tags": "",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 3,
-              "leftEdgeAnchor": 3,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 3,
-              "topEdgeAnchor": 3,
-              "useLegacyBottomAndRightAnchors": false
-            }
-          ],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 4,
-            "BottomPadding": 6,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Hovered.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Idle": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Idle.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Level 2",
               "font": "",
               "textAlignment": "center",
               "characterSize": 45,
@@ -2591,7 +2609,7 @@
                 "",
                 "Road Fighter Assets\\Sonidos\\Speed Racer Arcade OST Opening.mp3",
                 "",
-                "25",
+                "45",
                 ""
               ]
             }
@@ -2631,6 +2649,32 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
+                "Button_Tuto",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"TutoScene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
                 "Button_Level_1",
                 ""
               ]
@@ -2648,6 +2692,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -2706,7 +2755,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6873893584319124,
+        "zoomFactor": 0.8387280160316722,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2781,22 +2830,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 174,
-          "layer": "UI",
-          "name": "LapUI",
-          "persistentUuid": "30596d44-7cf8-4fee-8fdd-c76c86c9e777",
-          "width": 539,
-          "x": 5,
-          "y": 50,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "UI",
@@ -2851,8 +2884,8 @@
           "name": "TutorialText",
           "persistentUuid": "10449ac5-6445-4470-a25a-84dbe88687ba",
           "width": 316,
-          "x": 4,
-          "y": 688,
+          "x": 20,
+          "y": 666,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -4389,13 +4422,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 18980,
+          "height": 19919,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "61532cb0-8ede-4f75-b0cf-4057a5908c46",
           "width": 150,
           "x": 1097,
-          "y": -17812,
+          "y": -18751,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4421,7 +4454,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 22833,
+          "height": 23797,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "20622e61-27a6-4fe5-bc85-74b59ef50739",
@@ -4437,13 +4470,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 22844,
+          "height": 24471,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "d0fa33e3-622f-4a94-92fe-8915c59ed6d8",
           "width": 150,
           "x": 1063,
-          "y": -70508,
+          "y": -71054,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4485,13 +4518,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 30375,
+          "height": 32447,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "87c393f1-8615-41c1-9cb0-484d9fc6aa83",
           "width": 150,
           "x": 3765,
-          "y": -102961,
+          "y": -103582,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4501,13 +4534,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 9439,
+          "height": 10786,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "d4a290a9-aab5-43e3-8190-3d86ad1e6d6c",
           "width": 150,
           "x": 1096,
-          "y": -114398,
+          "y": -115066,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4549,13 +4582,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 11343,
+          "height": 12442,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "113b5ef4-46a6-40ba-b0d9-f96dc8f14f9a",
           "width": 150,
           "x": 3772,
-          "y": -127798,
+          "y": -128329,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4581,13 +4614,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 22777,
+          "height": 24129,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "5ea656a4-3b0c-46fc-83bd-3652fce50264",
           "width": 150,
           "x": 1103,
-          "y": -152550,
+          "y": -153203,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4597,7 +4630,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 5729,
+          "height": 6235,
           "layer": "Obstacle",
           "name": "Obstacle",
           "persistentUuid": "98318581-3c93-4798-bfe4-27af050a5e7a",
@@ -4633,8 +4666,8 @@
           "name": "CarPassed",
           "persistentUuid": "0df1d7f4-cfde-4a67-b817-e8df4bf30b2c",
           "width": 0,
-          "x": 4,
-          "y": 249,
+          "x": 9,
+          "y": 66,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -4676,7 +4709,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_1",
           "persistentUuid": "d3978800-d5d3-4c90-8447-b6b57e14163a",
           "width": 0,
@@ -4691,7 +4724,7 @@
           "angle": 43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_2",
           "persistentUuid": "7429d0fd-8f6b-4700-b9cb-c4cbfcf81f08",
           "width": 0,
@@ -4706,7 +4739,7 @@
           "angle": 43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_1_End",
           "persistentUuid": "5c546b01-b72f-48e6-9871-1d98ce372e20",
           "width": 0,
@@ -4721,7 +4754,7 @@
           "angle": -43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_2_End",
           "persistentUuid": "aca1b8e1-4892-435b-8da7-6179dc92253f",
           "width": 0,
@@ -4736,7 +4769,7 @@
           "angle": -43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_3",
           "persistentUuid": "f74d4d93-7886-4e14-bd74-f50e82a7e05c",
           "width": 0,
@@ -4751,7 +4784,7 @@
           "angle": 43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_3_End",
           "persistentUuid": "b83354c7-2093-4968-9b0c-60890b931049",
           "width": 0,
@@ -4766,7 +4799,7 @@
           "angle": 43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_4",
           "persistentUuid": "5dd9fd12-0b6a-4868-8d1c-dc12766f2356",
           "width": 0,
@@ -4781,7 +4814,7 @@
           "angle": -43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_4_End",
           "persistentUuid": "4c937139-2073-42b0-ad1b-9619cf55fcf5",
           "width": 0,
@@ -4796,7 +4829,7 @@
           "angle": -43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_5",
           "persistentUuid": "37b59490-0bf5-413d-b5d0-ca80d6aa6994",
           "width": 0,
@@ -4811,7 +4844,7 @@
           "angle": 43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_5_End",
           "persistentUuid": "3248a883-0413-4920-932a-28a47c34d479",
           "width": 0,
@@ -4826,7 +4859,7 @@
           "angle": 43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_6",
           "persistentUuid": "ec1a67c5-4b15-4a68-8024-d066d12a7012",
           "width": 0,
@@ -4841,7 +4874,7 @@
           "angle": -43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_6_End",
           "persistentUuid": "43ef237f-16b3-4cac-b71d-fb2ae8cd18b5",
           "width": 0,
@@ -4856,7 +4889,7 @@
           "angle": -43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_7",
           "persistentUuid": "8f8df51f-43f3-418a-9f2a-6b48f2afdcb7",
           "width": 0,
@@ -4871,7 +4904,7 @@
           "angle": 43,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Sectors",
           "name": "Sector_7_End",
           "persistentUuid": "73e3bc00-526b-4393-9e2b-5f43aafb7238",
           "width": 0,
@@ -4934,14 +4967,542 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 125,
+          "height": 102,
           "layer": "UI",
           "name": "Button_B",
           "persistentUuid": "ad1512fe-2139-4a98-8947-04160dd33fb0",
-          "width": 165,
-          "x": 6,
-          "y": 590,
+          "width": 134,
+          "x": 21,
+          "y": 562,
           "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "bc176257-8d88-49ea-ba85-984c39e0a5fb",
+          "width": 3955,
+          "x": 1669,
+          "y": -19376,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "85912d2d-257e-4731-8587-fed47c959732",
+          "width": 3955,
+          "x": 616,
+          "y": -20086,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "84beb035-a32f-4e5c-9b23-65832c54484d",
+          "width": 3955,
+          "x": 1661,
+          "y": -46403,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "0f4df929-f632-4d33-9548-ac6ea55f79ea",
+          "width": 3955,
+          "x": 584,
+          "y": -45693,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "73034166-ec17-4550-bd5b-2339c5fc7807",
+          "width": 3955,
+          "x": 3256,
+          "y": -44647,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "3220680f-99e3-4b0a-95e4-13e7de2730e3",
+          "width": 3955,
+          "x": 3133,
+          "y": -45463,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "423bc49a-9931-4810-8537-b9e0b513c5e7",
+          "width": 2390,
+          "x": 1876,
+          "y": -71365,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "f417164c-fac1-48cb-875a-1cbc93eb6a52",
+          "width": 2390,
+          "x": 735,
+          "y": -71920,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "8621895a-3f14-4ffc-8b5a-de2d465e97f3",
+          "width": 2390,
+          "x": 1970,
+          "y": -104266,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "810570c2-4278-4d85-ab94-0c85c91b5eed",
+          "width": 2390,
+          "x": 667,
+          "y": -103831,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "6582de01-e0f4-4702-802e-0491e00335d2",
+          "width": 2390,
+          "x": 1946,
+          "y": -115281,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "acbd0daa-8625-4852-8419-4e305c0d392a",
+          "width": 2390,
+          "x": 688,
+          "y": -115802,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "64420405-231a-49e1-a490-7ce52ec34551",
+          "width": 2390,
+          "x": 1984,
+          "y": -129093,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "75d46650-1c3b-4894-9958-92dfe9d2c5fd",
+          "width": 2390,
+          "x": 683,
+          "y": -128648,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "b82225c0-b3df-4168-b6c4-10c8fedbbd34",
+          "width": 2390,
+          "x": 1931,
+          "y": -153405,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 132,
+          "customSize": true,
+          "depth": 0,
+          "height": 229,
+          "layer": "Obstacle",
+          "name": "Obstacle",
+          "persistentUuid": "8fbf2ff2-8d38-4499-8bd8-09231732641f",
+          "width": 2390,
+          "x": 692,
+          "y": -153894,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 105,
+          "layer": "Sectors",
+          "name": "Enemy_Delete",
+          "persistentUuid": "b36cc509-a77a-4283-aede-b6692fc49990",
+          "width": 2451,
+          "x": 481,
+          "y": -18186,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 105,
+          "layer": "Sectors",
+          "name": "Enemy_Delete",
+          "persistentUuid": "6c65ff63-04ec-46a8-8893-e33bb3764b58",
+          "width": 2451,
+          "x": 3821,
+          "y": -44220,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "94ad08c9-9644-4985-b1a8-fdc79a666607",
+          "width": 363,
+          "x": 4076,
+          "y": -26885,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "b3bc0a62-503b-477e-b810-b4a7a27f8ac5",
+          "width": 363,
+          "x": 4533,
+          "y": -29226,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "15e95889-0a78-4110-b51e-33a538c3f25b",
+          "width": 363,
+          "x": 4105,
+          "y": -34623,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 654,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "32949aff-da6c-4c1b-80ff-4a5ae74d413c",
+          "width": 363,
+          "x": 4463,
+          "y": -35277,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "678c301d-bb59-4b7f-98c0-844023c9f0af",
+          "width": 511,
+          "x": 4228,
+          "y": -41924,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 308,
+          "customSize": true,
+          "depth": 0,
+          "height": 283,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "a2b59c83-be74-40e2-8df0-d67e00545521",
+          "width": 512,
+          "x": 1467,
+          "y": -53053,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 52,
+          "customSize": true,
+          "depth": 0,
+          "height": 307,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "ab4694e9-9f79-4636-a937-a58136909cd1",
+          "width": 554,
+          "x": 1449,
+          "y": -59447,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "cbf177b2-773b-4bf8-9233-76eefc16e561",
+          "width": 363,
+          "x": 1724,
+          "y": -65661,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "07b2066a-3b85-4410-baf6-7fb1eb9e5143",
+          "width": 363,
+          "x": 1393,
+          "y": -67432,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 201,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "cb48cbca-3c23-4426-9241-31f90c4908b5",
+          "width": 363,
+          "x": 1734,
+          "y": -69142,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1134,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "f81c3b66-766d-46c9-a9c7-87557615dd3d",
+          "width": 712,
+          "x": 2788,
+          "y": -89549,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 322,
+          "customSize": true,
+          "depth": 0,
+          "height": 713,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "40135fa2-d5cf-40dd-859e-20d3c519e123",
+          "width": 400,
+          "x": 3171,
+          "y": -101367,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 321,
+          "customSize": true,
+          "depth": 0,
+          "height": 477,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "578419de-6b94-4f57-aec8-5d30dc4a7681",
+          "width": 861,
+          "x": 2055,
+          "y": -129018,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 846,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "75ce6f05-3ddb-44a4-b88a-a2f07e10c118",
+          "width": 363,
+          "x": 1316,
+          "y": -143975,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1396,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "299cf133-4202-4df1-850d-196fe318fb31",
+          "width": 581,
+          "x": 1576,
+          "y": -146827,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5959,7 +6520,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Arrow keys to drive.",
+          "string": "Arrow keys to drive.\nPress X for Grip Tyres",
           "font": "27d4da0f7767cf3fbf14eb2c8da758dbcfc7b5038c9214d5e6ed62db6476a6e5_Chango-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 20,
@@ -7192,6 +7753,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Enemy_Delete",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\car delete.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7228,7 +7830,7 @@
                 "",
                 "Road Fighter Assets\\Sonidos\\Speed Racer  The Race for Revenge, Part 2.mp3",
                 "",
-                "25",
+                "12",
                 ""
               ]
             }
@@ -7320,7 +7922,7 @@
                 "assets\\CarEngine.mp3",
                 "0",
                 "yes",
-                "30",
+                "45",
                 "1"
               ]
             },
@@ -15182,7 +15784,24 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PassedRec"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Mach5_Nose"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -15362,6 +15981,22 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Obstacle",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Sectors",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -15569,6 +16204,283 @@
               },
               "parameters": [
                 "Menu_Button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "TutoScene",
+      "name": "TutoScene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "tuto",
+          "persistentUuid": "07dd1f42-264a-4d79-bcf2-994c51c1858e",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "4d99363d-fc0c-478e-8ea1-c4978aa6f512",
+          "width": 0,
+          "x": 352,
+          "y": 433,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Continuar",
+          "persistentUuid": "7293fff9-5d7b-4749-bef1-00abd31e18dd",
+          "width": 0,
+          "x": 1043,
+          "y": 636,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "tuto",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 3,
+              "leftEdgeAnchor": 3,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 3,
+              "topEdgeAnchor": 3,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Road Fighter Assets\\cuidado.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Cuidado con el barro\n\nActiva el GRIP presionando X",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 45,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+          "name": "Continuar",
+          "tags": "",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Back",
+              "font": "Charm-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 50,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Continuar",
                 ""
               ]
             }
