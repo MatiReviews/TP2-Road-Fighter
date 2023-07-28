@@ -2800,7 +2800,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.07961667958779395,
+        "zoomFactor": 0.18242338118461499,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4788,8 +4788,8 @@
           "name": "Sector_1_End",
           "persistentUuid": "5c546b01-b72f-48e6-9871-1d98ce372e20",
           "width": 0,
-          "x": 1422,
-          "y": -18507,
+          "x": 1217,
+          "y": -18279,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -5547,6 +5547,21 @@
           "width": 581,
           "x": 1576,
           "y": -146827,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Enemy_Car_4",
+          "persistentUuid": "a45817d2-0c84-4bbf-b8d7-b86282193470",
+          "width": 0,
+          "x": 1961,
+          "y": -17704,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -6807,15 +6822,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": false,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -6876,15 +6883,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -6926,15 +6925,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -6959,7 +6950,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6976,15 +6986,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -7026,15 +7028,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -9677,30 +9671,6 @@
                         "1200",
                         "1"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceVersPos"
-                      },
-                      "parameters": [
-                        "Enemy_Car_2",
-                        "1788",
-                        "-17000",
-                        "1200",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceVersPos"
-                      },
-                      "parameters": [
-                        "Enemy_Car_3",
-                        "1795",
-                        "-17000",
-                        "1200",
-                        "1"
-                      ]
                     }
                   ]
                 },
@@ -9794,6 +9764,18 @@
                         "=",
                         "Enemy_Car_2.Y()"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Enemy_Car_2",
+                        "1788",
+                        "-17000",
+                        "1200",
+                        "1"
+                      ]
                     }
                   ]
                 },
@@ -9839,8 +9821,8 @@
                       "parameters": [
                         "",
                         "Enemy_Car_3",
-                        "1795",
-                        "-9500",
+                        "2023",
+                        "-7000",
                         ""
                       ]
                     },
@@ -9889,6 +9871,96 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "Enemy_Delete",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "2023",
+                        "-17000",
+                        "1200",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "Enemy_Delete",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "4600",
+                        "-21000",
+                        "1200",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "=",
+                        "42"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -10071,15 +10143,6 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "Enemy_Car_3",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
                         "PassedRec",
                         ""
                       ]
@@ -10201,6 +10264,11 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10337,10 +10405,6 @@
           "gravityY": 9.8,
           "scaleX": 100,
           "scaleY": 100
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "SmoothCamera",
