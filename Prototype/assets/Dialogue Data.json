@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Begin",
+		"tags": "",
+		"body": "Hola\nQue tal, todo piola wachin\nUwu asdas das dwad sad wa412 31\n[[ pipipip|Choise1]] \n[[ popopop|Choise2]]",
+		"position": {
+			"x": 569,
+			"y": 351
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Choise1",
+		"tags": "",
+		"body": "Piola\npopo\npipi\npeipqwe\n[[ poto No|potoNoJugoso]]\n[[ poto Si|potoJugoso]]",
+		"position": {
+			"x": 557,
+			"y": 110
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Choise2",
+		"tags": "",
+		"body": "Not Piola",
+		"position": {
+			"x": 846,
+			"y": 109
+		},
+		"colorID": 0
+	},
+	{
+		"title": "potoNoJugoso",
+		"tags": "",
+		"body": "poto no jugoso",
+		"position": {
+			"x": 536,
+			"y": -121
+		},
+		"colorID": 0
+	},
+	{
+		"title": "potoJugoso",
+		"tags": "",
+		"body": "poto jugoso",
+		"position": {
+			"x": 897,
+			"y": -110
+		},
+		"colorID": 0
+	}
+]
