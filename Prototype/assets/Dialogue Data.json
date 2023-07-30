@@ -68,5 +68,65 @@
 			"y": -401
 		},
 		"colorID": 0
+	},
+	{
+		"title": "Mechanic",
+		"tags": "",
+		"body": "Soy el Mecanico",
+		"position": {
+			"x": 1318,
+			"y": 340
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Acrobatic",
+		"tags": "",
+		"body": "Acrobata",
+		"position": {
+			"x": 1585,
+			"y": 340
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Skull",
+		"tags": "",
+		"body": "Skull",
+		"position": {
+			"x": 1852,
+			"y": 339
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Terror",
+		"tags": "",
+		"body": "Captain Terror",
+		"position": {
+			"x": 2109,
+			"y": 338
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Ducey",
+		"tags": "",
+		"body": "Ace Ducey",
+		"position": {
+			"x": 2383,
+			"y": 338
+		},
+		"colorID": 0
+	},
+	{
+		"title": "RacerX",
+		"tags": "",
+		"body": "Racer X",
+		"position": {
+			"x": 2650,
+			"y": 334
+		},
+		"colorID": 0
 	}
 ]
