@@ -12,10 +12,10 @@
 	{
 		"title": "Choise1",
 		"tags": "",
-		"body": "Piola\npopo\npipi\npeipqwe\n[[ poto No|potoNoJugoso]]\n[[ poto Si|potoJugoso]]",
+		"body": "Piola\n<<Activado>>\nactivado uwu\n[[ poto No|potoNoJugoso]]\n[[ poto Si|potoJugoso]]",
 		"position": {
 			"x": 557,
-			"y": 110
+			"y": 109
 		},
 		"colorID": 0
 	},
@@ -32,7 +32,7 @@
 	{
 		"title": "potoNoJugoso",
 		"tags": "",
-		"body": "poto no jugoso",
+		"body": "poto no jugoso\n[[ queso|queso]]\n[[ jamon|jamon]]",
 		"position": {
 			"x": 536,
 			"y": -121
@@ -46,6 +46,26 @@
 		"position": {
 			"x": 897,
 			"y": -110
+		},
+		"colorID": 0
+	},
+	{
+		"title": "queso",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 394,
+			"y": -391
+		},
+		"colorID": 0
+	},
+	{
+		"title": "jamon",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 670,
+			"y": -401
 		},
 		"colorID": 0
 	}

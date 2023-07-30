@@ -1451,6 +1451,51 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue Data.json\"}",
         "name": "Dialogue Data",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Car_SuperB.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Car_SuperB.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/3837403e6a6c60f411be47e844c59ebe.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\3837403e6a6c60f411be47e844c59ebe.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/road_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\road_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Road Fighter Assets/Columnita.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road Fighter Assets\\Columnita.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2835,7 +2880,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20150678490768972,
+        "zoomFactor": 0.28075031334907546,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2996,8 +3041,8 @@
           "name": "TiledFullWall",
           "persistentUuid": "1c3c0106-d89e-40a4-add3-447d968ecf8b",
           "width": 320,
-          "x": 638,
-          "y": -88,
+          "x": -2567,
+          "y": 4750,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3012,8 +3057,8 @@
           "name": "Orange",
           "persistentUuid": "1d020112-ac14-4cf4-ba63-98c2130cbf3a",
           "width": 56,
-          "x": -952,
-          "y": -504,
+          "x": -4263,
+          "y": 4804,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -3028,8 +3073,8 @@
           "name": "TilesetPiece33",
           "persistentUuid": "c9b7b77c-41ca-4b55-b278-07ba7119aa90",
           "width": 960,
-          "x": -584,
-          "y": 938,
+          "x": -3895,
+          "y": 6246,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3051,8 +3096,8 @@
           "name": "TilesetPiece33",
           "persistentUuid": "586a23fc-afee-4018-9482-f1a46519ce48",
           "width": 448,
-          "x": -1211,
-          "y": 141,
+          "x": -4522,
+          "y": 5449,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -3074,8 +3119,8 @@
           "name": "TilesetPiece33",
           "persistentUuid": "fcbb6d21-aa92-4518-83a2-c43569b78230",
           "width": 960,
-          "x": -366,
-          "y": -762,
+          "x": -3677,
+          "y": 4546,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3097,8 +3142,8 @@
           "name": "DesertTile",
           "persistentUuid": "40ba2afa-adea-4398-a577-2ebb29e9b5a9",
           "width": 640,
-          "x": -1600,
-          "y": -768,
+          "x": -4911,
+          "y": 4540,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -3113,8 +3158,8 @@
           "name": "Orange",
           "persistentUuid": "cb222e9d-c4e8-4586-8536-28130bde9b77",
           "width": 56,
-          "x": 684,
-          "y": 1116,
+          "x": -2627,
+          "y": 6424,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -3162,7 +3207,7 @@
           "persistentUuid": "a5b29ce7-cdf4-452d-8229-4326c6d637ca",
           "width": 1150,
           "x": 1172,
-          "y": -4571,
+          "y": -5489,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3178,7 +3223,7 @@
           "persistentUuid": "edff961c-5c26-4ab2-86cd-f03246f88ec8",
           "width": 1150,
           "x": 1172,
-          "y": -6484,
+          "y": -7402,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3216,22 +3261,6 @@
           "initialVariables": []
         },
         {
-          "angle": 90,
-          "customSize": true,
-          "depth": 0,
-          "height": 1916,
-          "layer": "",
-          "name": "Road",
-          "persistentUuid": "a9f4470d-7d4d-4a43-8fae-81525038ddda",
-          "width": 1150,
-          "x": 2573,
-          "y": 2566,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 0,
@@ -3243,6 +3272,567 @@
           "x": 21,
           "y": 562,
           "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d5d233bd-57ca-4936-a558-636401fe6798",
+          "width": 1150,
+          "x": 2595,
+          "y": -4073,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d9b4269c-cb8b-480b-a247-c5cde0d66f9e",
+          "width": 1150,
+          "x": 1170,
+          "y": -4087,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "bf16b8c8-42c2-4922-bff6-f340e79fecb4",
+          "width": 1150,
+          "x": -239,
+          "y": -7782,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d51a4e4d-06f3-4c04-b9f5-7f4b6e3f9db2",
+          "width": 1150,
+          "x": -2152,
+          "y": -7782,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "1e40a63b-0af5-4ea4-bbfa-017ebaf50382",
+          "width": 1150,
+          "x": 4504,
+          "y": -4073,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "55c1660e-4fc3-40cb-aea5-22489464cf17",
+          "width": 1150,
+          "x": 6417,
+          "y": -4073,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "478e213a-3268-4242-ab00-0bad5ba4325b",
+          "width": 1150,
+          "x": 7832,
+          "y": 1193,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "15dd29c4-4b29-4e91-90b0-d6e93e1176a1",
+          "width": 1150,
+          "x": 7832,
+          "y": -717,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "cff4f8fa-5534-4456-bfb3-f684e561ec0c",
+          "width": 1150,
+          "x": 7832,
+          "y": -2632,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "b36a0c32-97e1-4c7b-8dec-3e75ae9d7de3",
+          "width": 1150,
+          "x": 2581,
+          "y": 2578,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8a7d6436-5da1-4f47-91eb-bab500f077ea",
+          "width": 1150,
+          "x": 4490,
+          "y": 2578,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0b5c43f7-6ee4-44b6-8246-d6601ecabc19",
+          "width": 1150,
+          "x": 6403,
+          "y": 2578,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0929abe0-b0d6-47db-9e81-94e8323a935a",
+          "width": 1150,
+          "x": -3568,
+          "y": -11228,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "1552bc1b-3dbc-49ec-9db1-cee634e76986",
+          "width": 1150,
+          "x": -3568,
+          "y": -9315,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "cbcb1146-b5b8-4822-b397-02849b1e5e17",
+          "width": 1150,
+          "x": 1172,
+          "y": -11228,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "bcf85082-43ee-4b5e-85ac-7f322d6f3676",
+          "width": 1150,
+          "x": 1172,
+          "y": -9315,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "dfb18025-cb11-4023-9482-876d5c2a67f6",
+          "width": 1150,
+          "x": 4390,
+          "y": -2654,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "449f6d85-3767-415a-baf2-ae780e124504",
+          "width": 1150,
+          "x": 4390,
+          "y": -739,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "875502ba-024c-4f65-9d39-bdb6fe950500",
+          "width": 1150,
+          "x": 4390,
+          "y": 1171,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "afc183e4-ff2f-4653-831d-d6e5018aedcb",
+          "width": 0,
+          "x": 7926,
+          "y": -3688,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "64dccbde-aaea-4f10-840a-467b664dc215",
+          "width": 0,
+          "x": 7927,
+          "y": 3030,
+          "zOrder": -8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "bfcc3ae6-a41f-46d9-a9c1-dfbd6b01e1b2",
+          "width": 0,
+          "x": 1268,
+          "y": 3028,
+          "zOrder": -8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "00ad528e-4e59-476a-873b-6ac072dde9cb",
+          "width": 0,
+          "x": -3473,
+          "y": -7410,
+          "zOrder": -8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "92888fbf-aece-4ca4-bb63-5e06df8c55fa",
+          "width": 1150,
+          "x": 7831,
+          "y": -5603,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1916,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "dd139960-5b1e-4bee-b1ae-3e6a71b8b112",
+          "width": 1150,
+          "x": 7831,
+          "y": -7516,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1071,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "0b937510-4bd3-4769-88ba-ba746417fe3b",
+          "width": 111,
+          "x": 8870,
+          "y": -3700,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1151,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "293beb76-bb5e-4969-a0ab-0a71bf112908",
+          "width": 111,
+          "x": 8350,
+          "y": -8145,
+          "zOrder": 51,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1006,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "98dafe0e-96d2-441f-aec0-a2a88db2bbc3",
+          "width": 111,
+          "x": 8872,
+          "y": 3105,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 964,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "1617a6b3-bd48-4598-9546-661eac7e810e",
+          "width": 110,
+          "x": 8340,
+          "y": 3573,
+          "zOrder": -6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 953,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "3819a806-ad74-42d1-856a-88ea20d5a9fb",
+          "width": 110,
+          "x": 1688,
+          "y": 3578,
+          "zOrder": -6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "depth": 0,
+          "height": 1045,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "6b233dce-2e97-4aa1-b72d-7e922faf50d3",
+          "width": 109,
+          "x": 1173,
+          "y": 3064,
+          "zOrder": -4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 938,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "686e9cd9-f7b0-435d-bbc0-76b780719fd1",
+          "width": 110,
+          "x": -3059,
+          "y": -6773,
+          "zOrder": -6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "depth": 0,
+          "height": 1153,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "5106fbef-fc6f-48db-8ba5-74ff810c376e",
+          "width": 110,
+          "x": -3567,
+          "y": -7402,
+          "zOrder": -6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1146,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "90fe19fd-1bf1-4004-8e0e-5657f8382b60",
+          "width": 110,
+          "x": -3048,
+          "y": -11856,
+          "zOrder": -6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1151,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "09235871-0ae3-4d10-8bd2-817b157d3475",
+          "width": 110,
+          "x": 1691,
+          "y": -11856,
+          "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5753,6 +6343,128 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Road1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Road Fighter Assets\\road_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 960,
+                            "y": 0
+                          },
+                          {
+                            "x": 960,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Columnita",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Road Fighter Assets\\Columnita.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 104,
+                            "y": 0
+                          },
+                          {
+                            "x": 104,
+                            "y": 962
+                          },
+                          {
+                            "x": 0,
+                            "y": 962
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7005,6 +7717,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Mecanica Rueda",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8126,7 +8839,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.18242338118461499,
+        "zoomFactor": 0.5272035716235364,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10892,6 +11605,134 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 125,
+          "layer": "Dialogue UI",
+          "name": "DialogueBox",
+          "persistentUuid": "dfd6087a-9244-49bf-b2e0-5b2bda41c351",
+          "width": 643,
+          "x": 382,
+          "y": 568,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "Dialogue UI",
+          "name": "NameBox",
+          "persistentUuid": "a9491882-abe6-4600-a665-57ec3304019b",
+          "width": 176,
+          "x": 384,
+          "y": 513,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "Dialogue UI",
+          "name": "DialogueText",
+          "persistentUuid": "a702c219-f8fd-49bb-9b41-f195a816f0e5",
+          "width": 606,
+          "x": 399,
+          "y": 579,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 43,
+          "layer": "Dialogue UI",
+          "name": "NameText",
+          "persistentUuid": "a42bbad8-d9a8-4b92-b4b7-8d120c3259b6",
+          "width": 148,
+          "x": 396,
+          "y": 514,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 95,
+          "layer": "Options UI",
+          "name": "OptionsBox",
+          "persistentUuid": "baabfabf-98b1-4474-ba1b-6031a8114809",
+          "width": 297,
+          "x": 687,
+          "y": 462,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82,
+          "layer": "Options UI",
+          "name": "OptionsText",
+          "persistentUuid": "5f83d841-0fd3-45e0-b45d-ae8edfe8c813",
+          "width": 275,
+          "x": 694,
+          "y": 468,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Collider_Hub_Text_1",
+          "persistentUuid": "53acb4c2-807e-4321-ab0e-5f59e2c9bcc6",
+          "width": 272,
+          "x": 1598,
+          "y": -131,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Collider_Hub_Text_2",
+          "persistentUuid": "575fca7e-0225-4fa7-b744-32f2530cbf2e",
+          "width": 256,
+          "x": 1627,
+          "y": 804,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -13399,6 +14240,321 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Collider_Hub_Text_1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Collider_Hub_Text_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DialogueBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Road Fighter Assets\\Dialogue\\dialogue_box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1775,
+                            "y": 0
+                          },
+                          {
+                            "x": 1775,
+                            "y": 345
+                          },
+                          {
+                            "x": 0,
+                            "y": 345
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NameBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Road Fighter Assets\\Dialogue\\name_box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 425,
+                            "y": 0
+                          },
+                          {
+                            "x": 425,
+                            "y": 105
+                          },
+                          {
+                            "x": 0,
+                            "y": 105
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 40,
+          "name": "OptionsBox",
+          "tags": "",
+          "texture": "Road Fighter Assets\\Dialogue\\option_box.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 40,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "DialogueText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "DIALOGUE",
+            "opacity": 255,
+            "fontSize": 32,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NameText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "NAME",
+            "opacity": 255,
+            "fontSize": 32,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "OptionsText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "OPTIONS\nOPTIONS",
+            "opacity": 255,
+            "fontSize": 32,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -15196,102 +16352,100 @@
                         "Enemy_Car_3.Y()"
                       ]
                     }
-                  ],
-                  "events": [
+                  ]
+                },
+                {
+                  "colorB": 33,
+                  "colorG": 155,
+                  "colorR": 238,
+                  "creationTime": 0,
+                  "name": "Logica para que el auto siga el camino",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
-                      "colorB": 33,
-                      "colorG": 155,
-                      "colorR": 238,
-                      "creationTime": 0,
-                      "name": "Logica para que el auto siga el camino",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [],
-                      "parameters": []
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Enemy_Car_3",
-                            "Enemy_Delete",
-                            "",
-                            "",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceVersPos"
-                          },
-                          "parameters": [
-                            "Enemy_Car_3",
-                            "2023",
-                            "-17000",
-                            "1200",
-                            "1"
-                          ]
-                        }
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "Enemy_Delete",
+                        "",
+                        "",
+                        "no"
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Enemy_Car_3",
-                            "Enemy_Delete",
-                            "",
-                            "",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceVersPos"
-                          },
-                          "parameters": [
-                            "Enemy_Car_3",
-                            "4600",
-                            "-21000",
-                            "1200",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetAngle"
-                          },
-                          "parameters": [
-                            "Enemy_Car_3",
-                            "=",
-                            "42"
-                          ]
-                        }
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "2023",
+                        "-17000",
+                        "1200",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "Enemy_Delete",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "4600",
+                        "-21000",
+                        "1200",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Enemy_Car_3",
+                        "=",
+                        "42"
                       ]
                     }
                   ]
@@ -15522,6 +16676,498 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
+          "name": "Template",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                  },
+                  "parameters": [
+                    "",
+                    "Dialogue Data"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Collider_Hub_Text_1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Collider_Hub_Text_2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue UI\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Collider_Hub_Text_1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TypeWritter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Begin\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue UI\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Collider_Hub_Text_2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TypeWritter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Choise1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue UI\""
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"text\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "DialogueTree::ClippedLineText()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TypeWritter\"",
+                        ">=",
+                        "0.08"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::ScrollClippedText"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TypeWritter\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::GoToNextLine"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::CompleteClippedTextScrolling"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"options\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Options UI\""
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"options\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Options UI\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::SelectPreviousOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsMouseWheelScrollingUp"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::SelectPreviousOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::SelectNextOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsMouseWheelScrollingDown"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::SelectNextOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::ConfirmSelectOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasSelectedOptionChanged"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "OptionsText",
+                        "=",
+                        "DialogueTree::VerticalOptionsList(\"[b][color=yellow]>[/color][/b]\")"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Finish Line",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15715,6 +17361,38 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Sectors",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Options UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -29905,6 +31583,67 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Road Fighter Assets\\3837403e6a6c60f411be47e844c59ebe.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 800,
+                            "y": 0
+                          },
+                          {
+                            "x": 800,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -30254,6 +31993,39 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"Activado\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NewSprite",
+                "600",
+                "200",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
