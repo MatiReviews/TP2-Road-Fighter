@@ -74,18 +74,18 @@
 		"tags": "",
 		"body": "Acrobata",
 		"position": {
-			"x": 1585,
-			"y": 340
+			"x": 1514,
+			"y": 348
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Skull",
 		"tags": "",
-		"body": "Skull",
+		"body": "Quieres una carrera Meteoro?\n[[ Si |Correr]]\n[[ No |NoCorrer]]",
 		"position": {
-			"x": 1852,
-			"y": 339
+			"x": 1774,
+			"y": 345
 		},
 		"colorID": 0
 	},
@@ -136,6 +136,26 @@
 		"position": {
 			"x": 2249,
 			"y": 94
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Correr",
+		"tags": "",
+		"body": "Vas a perder\n<<SkullRaceTrue>>\n:3",
+		"position": {
+			"x": 1549,
+			"y": 106
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoCorrer",
+		"tags": "",
+		"body": "Igualmente perderias",
+		"position": {
+			"x": 1781,
+			"y": 105
 		},
 		"colorID": 0
 	}

@@ -3230,7 +3230,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.08507661001327232,
+        "zoomFactor": 0.5449810500781366,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3896,7 +3896,7 @@
           "customSize": true,
           "depth": 0,
           "height": 113,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_1",
           "persistentUuid": "155a7e75-cf9f-4ad7-b2df-2d4a951411ce",
           "width": 472,
@@ -3912,7 +3912,7 @@
           "customSize": true,
           "depth": 0,
           "height": 136,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_2",
           "persistentUuid": "06ad9101-7c41-4494-bf73-955ff5cf8f5f",
           "width": 155,
@@ -3928,7 +3928,7 @@
           "customSize": true,
           "depth": 0,
           "height": 190,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_3",
           "persistentUuid": "5e82b93f-867b-4565-9cc9-e24d153784fd",
           "width": 172,
@@ -4120,7 +4120,7 @@
           "customSize": true,
           "depth": 0,
           "height": 144,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_4",
           "persistentUuid": "2f85e8b0-4fd5-4466-96e5-102d431a67c3",
           "width": 145,
@@ -4136,7 +4136,7 @@
           "customSize": true,
           "depth": 0,
           "height": 155,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_5",
           "persistentUuid": "b6a78c50-3205-491d-9627-8fb37016ec9e",
           "width": 156,
@@ -4152,7 +4152,7 @@
           "customSize": true,
           "depth": 0,
           "height": 178,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_6",
           "persistentUuid": "fef9793c-f1e6-4a3e-bcaf-135a963e14d3",
           "width": 173,
@@ -4168,7 +4168,7 @@
           "customSize": true,
           "depth": 0,
           "height": 151,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_7",
           "persistentUuid": "6081d65b-64d1-4579-992e-d45d25b42986",
           "width": 137,
@@ -4184,7 +4184,7 @@
           "customSize": true,
           "depth": 0,
           "height": 162,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_8",
           "persistentUuid": "d592bd6d-951f-4687-ad43-d3895e915026",
           "width": 153,
@@ -4200,7 +4200,7 @@
           "customSize": true,
           "depth": 0,
           "height": 105,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_9",
           "persistentUuid": "094f51ff-2695-49dc-963c-6eeb791cfc7c",
           "width": 112,
@@ -4232,7 +4232,7 @@
           "customSize": true,
           "depth": 0,
           "height": 119,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_10",
           "persistentUuid": "ebeaa633-ecde-4f57-8c7f-d68a6a798622",
           "width": 125,
@@ -4630,7 +4630,7 @@
           "customSize": true,
           "depth": 0,
           "height": 132,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_11",
           "persistentUuid": "e1e6caa3-c09b-4d3e-9eb8-c2f6d1e7f69c",
           "width": 165,
@@ -4646,7 +4646,7 @@
           "customSize": true,
           "depth": 0,
           "height": 139,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_12",
           "persistentUuid": "0702f11f-e0b5-41a0-9732-c7e35407e98a",
           "width": 234,
@@ -4662,7 +4662,7 @@
           "customSize": true,
           "depth": 0,
           "height": 120,
-          "layer": "",
+          "layer": "EnemyFollowLine",
           "name": "TerrorCheckpoint_13",
           "persistentUuid": "c14bb761-f168-4d22-86fe-153dd9e8fc2a",
           "width": 143,
@@ -4954,8 +4954,8 @@
           "name": "Obstacle",
           "persistentUuid": "915eadad-a7d7-445e-94d3-a3cd323d64c8",
           "width": 7587,
-          "x": 15722,
-          "y": -31103,
+          "x": 15486,
+          "y": -31387,
           "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
@@ -5273,6 +5273,127 @@
           "x": 43,
           "y": 681,
           "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "7418bee1-1582-426c-8553-08979904badb",
+          "width": 0,
+          "x": 1245,
+          "y": -12196,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "4e779115-a52d-4ace-9272-521b3ac756b9",
+          "width": 0,
+          "x": 6527,
+          "y": -16185,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "2f113595-23c2-4f46-93b1-fbfbf55dbcb7",
+          "width": 0,
+          "x": 17741,
+          "y": -25425,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -45,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "44375166-fa23-47ac-86dd-5b4b1bcd8d77",
+          "width": 0,
+          "x": 21050,
+          "y": -29380,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "821c2f55-c01d-423f-b9f5-25d5496989f5",
+          "width": 0,
+          "x": 16218,
+          "y": -34045,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "2af457db-346e-4720-8b2b-6d057d5f46dc",
+          "width": 895,
+          "x": 7806,
+          "y": -33620,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "e2ca198f-39a4-4aa2-98ef-0dfa72eccd96",
+          "width": 0,
+          "x": 8050,
+          "y": -33067,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Columnita",
+          "persistentUuid": "1bf3fba2-24ea-47bd-a70c-92c7cd26c3e3",
+          "width": 0,
+          "x": 1975,
+          "y": -38928,
+          "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12806,42 +12927,6 @@
                 "",
                 "\"LostScene\"",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Escape"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PushScene"
-              },
-              "parameters": [
-                "",
-                "\"PauseScene\""
               ]
             }
           ]
@@ -26368,7 +26453,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6019917980016549,
+        "zoomFactor": 0.1446302370225596,
         "windowMask": false
       },
       "objectsGroups": [
@@ -27215,7 +27300,7 @@
           "customSize": true,
           "depth": 0,
           "height": 552,
-          "layer": "",
+          "layer": "CheckPoints",
           "name": "ColliderSkull",
           "persistentUuid": "54a20b76-6d62-401b-91cc-3438caf2a06f",
           "width": 552,
@@ -32728,6 +32813,37 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsCommandCalled"
+                  },
+                  "parameters": [
+                    "\"SkullRaceTrue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level_Boss_Race\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -33326,6 +33442,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -55813,14 +55930,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 156,
           "layer": "",
           "name": "NewText",
           "persistentUuid": "4d99363d-fc0c-478e-8ea1-c4978aa6f512",
-          "width": 0,
-          "x": 352,
-          "y": 433,
+          "width": 694,
+          "x": 357,
+          "y": 429,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -55908,10 +56026,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Cuidado con el barro\n\nActiva el GRIP presionando X",
+          "string": "Cuidado con el barro\nActiva el GRIP presionando X\nActiva las Sierras con Z\n\nVe la mecanico para mejorar el coche",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 45,
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
