@@ -70,16 +70,6 @@
 		"colorID": 0
 	},
 	{
-		"title": "Mechanic",
-		"tags": "",
-		"body": "Soy el Mecanico",
-		"position": {
-			"x": 1318,
-			"y": 340
-		},
-		"colorID": 0
-	},
-	{
 		"title": "Acrobatic",
 		"tags": "",
 		"body": "Acrobata",
@@ -102,7 +92,7 @@
 	{
 		"title": "Terror",
 		"tags": "",
-		"body": "Captain Terror",
+		"body": "Quieres una carrera Meteoro?\n[[ Si: |TerrorCorrer]]\n[[ No: |TerrorNoCorrer]]",
 		"position": {
 			"x": 2109,
 			"y": 338
@@ -126,6 +116,26 @@
 		"position": {
 			"x": 2650,
 			"y": 334
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TerrorCorrer",
+		"tags": "",
+		"body": "Muy bien, hagamoslo\n<<TerrorRaceTrue>>\n:3",
+		"position": {
+			"x": 2023,
+			"y": 96
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TerrorNoCorrer",
+		"tags": "",
+		"body": "Otro día será",
+		"position": {
+			"x": 2249,
+			"y": 94
 		},
 		"colorID": 0
 	}
